@@ -1,12 +1,18 @@
-
 '''
 find prime numbers between 1 and 100
 for each that is not, pring x is not a prime number
 '''
 
-pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
-pairs.sort(key=lambda pair: pair[1], reverse=True)
-print(pairs)
+# pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
+# #pairs.sort(key=lambda pair: pair[1], reverse=True)
+# pairs[len(pairs):]=[(5, "five")]
+# pairs.insert(len(pairs),(6, "Six"))
+# pairs.insert(2, (0.5, 'point 5'))
+# print(pairs)
+# pairs.remove((0.5, 'point 5'))
+# print(pairs)
+# pairs.remove(pairs[0])
+# print(pairs)
 
 # def concat(*args, sep="-"):
 #     return sep.join(args)
