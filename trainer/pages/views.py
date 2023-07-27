@@ -1,5 +1,6 @@
 '''
 Generic Class based view implementation
+-->page 70
 '''
 from django.views.generic import TemplateView
 
